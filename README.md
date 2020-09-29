@@ -23,7 +23,7 @@ First of all we need a way to clean up and prepare the provided data to make it 
 
 After we've provided a clear database that can be used for analysis we need to develeop the Machine Learning Pipeline. In the first step i've created the ML Pipeline Preparation.py. This was used for development. The final Machine Learning algorithm can be found in models/train_classifier.py. This file loads the data, processes the data for the Machine Learning Pipeline and trained by an optimized Model. 
 
-## Result Machine Learning Pipeline
+## Results Machine Learning Pipeline/Moddel
 
 The Machine Learning Pipeline / Model archieves the overall resutlts:
 * Mean Accuracy: 0.944908187403 = 94.49 %
@@ -33,5 +33,16 @@ The Machine Learning Pipeline / Model archieves the overall resutlts:
 
 The model is stored as a picke file in models/classifier.pkl.
 This model is being used in the WebApp to predict the entered messages and identify the corresponding categorie.
+
+# What do you need to run the project?
+* Scikit-learn
+* Pandas
+* Numpy
+* Flask
+* sqlalchemy
+* nltk
+* seaborn
+* matplotlib
+* Plotly
 
 
