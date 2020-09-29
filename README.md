@@ -31,6 +31,7 @@ The Machine Learning Pipeline / Model archieves the overall resutlts:
 * Mean Recall: 0.944908187403 = 94.44 %
 * Mean F1: 0.933039041181 = 93.33 %
 
-The model is stored as a picke file in 
+The model is stored as a picke file in models/classifier.pkl.
+This model is being used in the WebApp to predict the entered messages and identify the corresponding categorie.
 
 
