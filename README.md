@@ -26,9 +26,11 @@ After we've provided a clear database that can be used for analysis we need to d
 ## Result Machine Learning Pipeline
 
 The Machine Learning Pipeline / Model archieves the overall resutlts:
-* Mean Accuracy: 0.944908187403
-* Mean Precision: 0.934747078007
-* Mean Recall: 0.944908187403
-* Mean F1: 0.933039041181
+* Mean Accuracy: 0.944908187403 = 94.49 %
+* Mean Precision: 0.934747078007 = 93.47 %
+* Mean Recall: 0.944908187403 = 94.44 %
+* Mean F1: 0.933039041181 = 93.33 %
+
+The model is stored as a picke file in 
 
 
